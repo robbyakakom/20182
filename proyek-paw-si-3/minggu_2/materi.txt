@@ -1,0 +1,65 @@
+HTML dan CSS
+------------
+html -> hypertext markup language
+: kumpulan perintah yang digunakan membuat dokumen html / web
+: <...> konten </...> ==> tag ==> membungkus informasi
+<h1> Judul Artikel </h1>
+------------------------
+
+STRUKTUR DASAR
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Judul Aplikasi</title>
+	</head>
+	<body>
+		<h1>Judul Artikel</h1>
+		<p>
+			isi paragraph isi paragraph isi paragraph isi paragraph isi paragraph isi paragraph 
+		</p>
+	</body>
+</html>
+
+
+CSS : cascading style sheet
+: mengatur format / layout / propert wearna backgroud dll
+
+selector { properti: nilai; .... ;properti: nilai;}
+- tag
+- id
+- class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
