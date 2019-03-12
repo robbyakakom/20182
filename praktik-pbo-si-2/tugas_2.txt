@@ -1,0 +1,12 @@
+Tugas Praktik 2
+----------------
+Ubahlah kelas hasil praktik 1 dengan menambahkan modifier 
+- buat gambar class diagram
+- program kelas
+- program instantisi / membuat objek
+- buat inputan form
+
+Hasil 
+- listing 
+- screen shoot
+- penjelasan (alasan memilih modifier di class)
