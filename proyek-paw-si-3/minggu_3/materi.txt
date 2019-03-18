@@ -1,0 +1,25 @@
+CSS BOOTSTRAPS
+---------------
+html : --> buat dokomen web / html : informasi dalam <tag>
+css : format dokumen web
+
+deklarasi :
+	selector { properti : nilai ; ... ; properti : nilai }
+	tag 
+	id : #
+	class : .
+	
+penggunaan css di html
+- inline : <h1 style="color:red"> ... </h1>
+- internal
+	<style type="text/css">
+		h1 {
+			border : 1px solid black ;
+		}
+	</style>
+- eksternal 
+	<link rel="stylesheet" type="text/css" href="file.css" />
+	
+	body {
+		background: red ;
+	}

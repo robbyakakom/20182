@@ -1,0 +1,15 @@
+
+	
+
+Tugas Pertemuan 3
+-----------------
+- ubahlah semua tampilan tugas 2 dengan menggunakan boostraps
+- tambahkan 1 halaman berisi form untuk input matakuliah
+	
+	Form Input Matakuliah
+	
+	Nama Matakuliah 	[ input ]
+	SKS					[ input ]
+	Nilai Huruf			[ select ]
+	
+		[ SUBMIT ]
