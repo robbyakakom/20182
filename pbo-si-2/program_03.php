@@ -8,6 +8,4 @@ echo "NIM : ".$mhsAkakom->getNim()."<br/>" ;
 echo "Nama : ".$mhsAkakom->getNama()."<br/>" ;
 echo "Alamat : ".$mhsAkakom->getAlamat()."<br/>" ;
 
-echo unset($mhsAkakom) ;
-
 ?>

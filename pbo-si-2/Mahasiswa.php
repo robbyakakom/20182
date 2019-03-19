@@ -1,20 +1,15 @@
 <?php
 class Mahasiswa
 {
-  private $nim ;
-  private $nama ;
-  private $alamat ;
+  protected $nim ;
+  protected $nama ;
+  protected $alamat ;
   
   public function __construct($nim, $nama, $alamat)
   {
     $this->nim = $nim ;
     $this->nama = $nama ;
     $this->alamat = $alamat ;
-  }
-  
-  public function __destruct()
-  {
-    return $this->nim ;
   }
   
   public function getNim()
