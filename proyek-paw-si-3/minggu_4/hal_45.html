@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web dengan Javascript</title>
+		<script type="text/javascript" src="jquery.min.js"> </script>
+		<style type="text/css">
+			.detail {
+				display: none ;
+			}
+			#more {
+				text-decoration: underline;
+				font-weight: bolder; 
+				cursor: default;
+			}
+		</style>
+	</head>
+	<body>
+		<form >
+			<h1>Data Pembelian</h1>
+			<form >
+				Nama Barang <input type="text" id="nama_barang"  name="nama_barang" /> <br/>
+				Harga Barang <input type="text" id="harga_barang"  name="harga_barang" /> <br/>
+				Jumlah Barang <input type="text" id="jumlah_barang"  name="jumlah_barang" /> <br/>
+				<input type="button" id="isi" value="isi" />
+			</form>
+		</form>
+		<h3>Daftar Pembelian</h3>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Nama Barang</th>
+					<th>Harga Barang</th>
+					<th>Jumlah Barang</th>
+					<th>Jumlah Harga</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>
+			<tfoot>
+				<td colspan="3">Total Harga</td>
+				<td id="total"> 0 </td>
+			</tfoot>
+		</table>
+		
+	</body>
+</html>
+<script type="text/javascript">
+$(document).ready(function(){
+	var total = 0;
+	
+	$("#isi").click(function(){
+		var nama_barang;
+		var harga_barang;
+		var jumlah_barang;
+		var jumlah_harga;
+		
+		var isi_tabel ;
+		
+		nama_barang = $("#nama_barang").val() ;
+		harga_barang = $("#harga_barang").val() ;
+		jumlah_barang = $("#jumlah_barang").val() ;
+		jumlah_harga = harga_barang * jumlah_barang ;
+		total = total + jumlah_harga ;
+		isi_tabel = "<tr> <td> "+ nama_barang +
+" </td> <td> "+harga_barang+" </td> <td> "+jumlah_barang+" </td> <td> "+jumlah_harga+" </td> </tr>" ;
+		
+		$("tbody").append(isi_tabel);
+		
+		$("#total").text(total) ;
+	}) ;
+})
+</script>

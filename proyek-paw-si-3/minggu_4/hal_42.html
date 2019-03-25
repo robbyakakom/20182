@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web dengan Javascript</title>
+		
+	</head>
+	<body>
+		<form name="mahasiswa">
+			NIM <input type="text" name="nim" /> <br/>
+			<input type="button" onclick="tampil()" value="TAMPIL"/>
+		</form>
+		
+		<div id="data">
+		
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript">
+	function tampil()
+	{
+		var nim = mahasiswa.nim.value ;
+		//alert(nim) ;
+		document.getElementById("data").innerHTML = nim ;
+	}
+</script>

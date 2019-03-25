@@ -1,0 +1,92 @@
+lingkungan penegembangan aplikasi web
+- web server + db server
+- web browser
+- editor 	
+	html, css, js, php
+
+html
+	membungkus informasi --> tag --> 
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Judul</title>
+		</head>
+		<body>
+			<h1 align="center">Artikel</h1>
+		</body>
+	</html>
+	
+css 
+	format html
+	deklarasi :
+		selector {properti : nilai; ... ; properti : nilai}
+					color
+					background
+					border
+					margin
+					padding
+					
+		.class ==><h1 class="class">
+		#id ===> <p id="id">
+		tag	==> <span>
+		
+	cara penggunaan
+	inline --> <div style="color:blue">
+	internal 
+		<style type="text/css">
+			/* deklarasi css */
+			p { color: red }
+		</style>
+	external 
+		file.css
+		---------
+			/* deklarasi css */
+			p { color: red }
+			
+		file.html
+		---------
+		<link rel="stylesheet" type="text/css" href="file.css" />
+	
+	
+bootstraps
+	--> framework css
+	basis selector class
+	<button class="btn btn-default" >
+	
+	penggunaan bootraps
+	- memanggil file source bootstraps / CDN
+	- atur meta view-port
+	- di body tempat elemet class container
+	
+javasript
+	- script logik program dalam web client
+	- web dinamis / interaksi
+	- basis event : click, double click , tombol keyboar di tekan (key press), dll
+	- varibel, tipe data, struktur kontrol (if, , switch, while, for)
+	- obyek oriented
+	- penulisan 
+		internal :
+		<script type="text/javascript">
+			/* perintah js */
+			var namaMhs ;
+			namaMhs = "Budi Budiman" ;
+			document.write("Nama Mahasiswa " + namaMhs) ;
+		</script>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

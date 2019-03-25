@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web dengan Javascript</title>
+		<script type="text/javascript" src="jquery.min.js"> </script>
+		<style type="text/css">
+			.detail {
+				display: none ;
+			}
+			#more {
+				text-decoration: underline;
+				font-weight: bolder; 
+				cursor: default;
+			}
+		</style>
+	</head>
+	<body>
+		<form >
+			Nama <input type="text" name="nama" id="nama" /> 
+			<input type="button" id="isi" value="ISI" />
+		</form>
+		<h3>Daftar Nama</h3>
+		<ol>
+		
+		</ol>
+		
+	</body>
+</html>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#isi").click(function(){
+		var nama = $("#nama").val() ;
+		$("ol").append("<li>"+nama+"</li>") ;
+	}) ;
+})
+</script>

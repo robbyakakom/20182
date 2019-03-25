@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web dengan Javascript</title>
+		<script type="text/javascript" src="jquery.min.js"> </script>
+		<style type="text/css">
+			.detail {
+				display: none ;
+			}
+			#more {
+				text-decoration: underline;
+				font-weight: bolder; 
+				cursor: default;
+			}
+		</style>
+	</head>
+	<body>
+		<form >
+			Nama <input type="text" name="nama" id="nama" /> 
+			<input type="button" id="isi" value="ISI" />
+		</form>
+		<h3>Daftar Nama</h3>
+		<ol>
+		
+		</ol>
+		
+		
+		<h1 id="judul"> Judul Artikel </h1>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio erat, posuere eu interdum feugiat, pulvinar in ipsum. Sed et convallis nunc. Vestibulum diam augue, fermentum consectetur elit et, sollicitudin gravida turpis. Nulla facilisi. Etiam ut pellentesque urna, eget elementum ex. Ut gravida, nisl eget varius mattis, lectus sem interdum augue, id mattis eros mauris a magna. Aenean consectetur congue eros, eget viverra nisi sollicitudin porta.
+		</p>
+		<div id="more">More....</div>
+		<p class="detail">
+			Donec lacinia tempus neque, mollis posuere nisl pellentesque a. Donec faucibus quam at urna viverra imperdiet. Fusce faucibus leo ac turpis vehicula, ac sodales ante feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce consectetur, velit sed ultrices eleifend, urna nisl bibendum leo, ornare mollis leo neque id metus. Nam est lectus, efficitur sed dictum nec, porttitor eu quam. Phasellus id massa est.
+		</p>
+		<p  class="detail">
+			Ut commodo convallis mollis. Maecenas in libero ultricies, congue felis eget, mollis odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus pulvinar ligula eget nisl dignissim, vel viverra mauris interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vestibulum et est ac semper. Nunc sagittis euismod justo, nec sagittis neque lacinia et. Nulla quis risus nulla. Curabitur dapibus risus ante, at vestibulum leo sagittis a. Sed ac mi nec risus pharetra ultrices. Duis non ante risus. Donec molestie, lacus eget congue suscipit, justo tellus luctus mauris, eget luctus risus ipsum eu nisi. Pellentesque in malesuada libero, eget ultrices dui. Integer a feugiat nisl, in semper ex.
+		</p>
+	</body>
+</html>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#more").click(function(){
+		$(".detail").show(10000) ;
+		$(this).hide();
+	}) ;
+
+})
+</script>
