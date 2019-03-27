@@ -1,0 +1,10 @@
+/* external style */
+a {
+  color: orange ;
+  text-decoration: none ;
+  /* display: block ; */
+  border: thin solid black;
+  padding: 10px;
+  background: yellow;
+  margin: 15px;
+}
