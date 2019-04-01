@@ -1,0 +1,200 @@
+Javascript --> script web, lebih interaktif
+--> algoritma dan pemrograman
+	- var , tipe data, struktur kontrol (if, while, for), fungsi
+--> DOM (Document Object Model) : halaman web ==> obyek : properti (innerHTML, form.text.value) & method : getElementById()
+
+JQuery
+--> turunan javascript 
+--> kumpulan perintah javascript
+penggunaan JQuery 
+- download source JQuery
+<script>
+$(document).ready(function(){
+	// perintah jquery
+	// $(selector).action() ;
+		#
+		.
+		nama_tag
+		this
+		
+	$("div").click(function(){
+		$(this).hide() ;
+	}) ;
+	
+})
+</script>
+
+<div> teks </div>
+
+===================================================================
+
+Pemrograman Web :
+- client side : HTML, CSS, JS
+- server : PHP
+
+media simpanan data : MySQL
+
+-----------------------------
+kebutuhan PAW
+- server web : apache
+- database : mysql
+- script / bahasa program : html, js, css, php, sql
+- editor : menuliskan script : notepad++, sublime, atom, textpad
+- browser : internet explorer, chrome, mozilla
+
+-----------------------------
+server script PHP
+- variabel, tipedata, operator, if, while, fungsi 
+<?php
+
+//tulis script php
+echo "Hello World" ;
+
+?>
+
+
+-----------------------------
+Database : bahasa database : 
+DDL (Data Definition Language) : Bahasa yang digunakan untuk mendefinisikan (membuat struktur, database, table) data :
+create, alter, drop
+
+ 
+DML (Data Manupation Language) : Bahasa yang digunakan untuk memanipulasi (mengelola: isi data, hapus data, ubah data, baca data) data 
+select, insert, delete, update
+
+sintak SQL
+create database nama-database ;
+use nama-database ;
+create table nama-table (
+	field varchar(10),
+	 ....
+);
+insert into nama-table (field_1, ...) value(nilai1, ) ;
+update nama-table set field_1=nilai1, ....
+delete from nama-table
+select * from nama-table
+
+==============================
+
+PHP --> Database
+
+extensi / API ==> fungsi2
+- MySQLi :
+	- prosedural : fungsi
+		$konek = mysqli_connecet(....)
+		
+	- OOP : class & obyek
+		$mysql = new MySQL (....);
+		$mysql->query(...)
+- PDO
+
+===============================
+Operasi database di aplikasi
+Create -> isi data -> insert
+Read -> baca data -> select
+Update -> ubah data -> update
+Delete -> hapus data -> delete
+
+algoritma php database
+----------------------
+1. ada koneksi
+2. perintah sql
+3. menjalankan sql
+4. jika hasil menjalankan adalah resource data hasil select
+	maka ubah jadi array (fetch)
+5. menampilkan array data
+6. tutup koneksi
+
+
+
+
+source code untuk CRUD mahasiswa 
+http://172.18.108.20/paw_5.zip
+
+tugas 5
+-------
+Buatlah aplikasi CRUD untuk mengolah data komentar di web
+
+===================================================
+
+Jenis Identitas    [ select ] ===> pilihan : KTP, KTM, SIM , DLL
+Nomor Identitas    [ input ]
+Nama User          [ input ]
+Umur 			   [ input ]
+Email			   [ input ]	
+Jenis Kelamin      o Laki-laki	o Perempuan
+Komentar			|---------------|
+					|	textarea	| 
+					|---------------|
+[ SIMPAN ]
+===================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
