@@ -1,0 +1,81 @@
+SESSION (SESI)
+--------------
+-> pengamanan akases
+-> pengenal pengguna
+
+--------------------
+variabel yg disimpan sementara di server :=> SESSION
+- deklarasi mulai session
+	session_start() ;
+- meyimpan variabel session
+	$_SESSION['nama_variabel'] = "nilai" ;
+- mrnggunaka session
+	echo $_SESSION['nama_variabel'] ;
+- hapus session
+	session_destroy() ;
+
+
+variabel yg disimpan sementara di browser :=> COOKIES
+- deklarasi cookies dan simpan nilai
+	setcookie("nama_variabel","nilai", time()+60000) ;
+- penggunaan cookie
+	echo $_COOKIE["nama_variabel"] ;
+
+skenario
+- input user dan password
+- login -> cari user dan password
+- jika ditemukan maka tampil home --> penyimpanan sesi
+- jika gagal maka gagal login
+
+- logout -> hapus sesi
+source code aplikasi
+	http://172.18.108.20/paw_6.zip
+
+Tugas 6
+-------
+- ubahlah tugas 5
+- buat tabel user
+	field : username, password, avatar (foto)
+	relasikan dengan tabel komentar
+- buat aplikasi CRUD untuk olah tabel user
+
+skenario aplikasi komentar
+- untuk isi komentar user harus login
+- menampilkan daftar komentar dimana user hanya dapat update, ubah komentar dirinya saja setelah login 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
