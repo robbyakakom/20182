@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+div {
+    border: 1px solid black;
+}
+#wrap {
+    width: 800px;
+    margin: auto ;
+}
+#header{
+    height: 100px;
+}
+#kiri{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+#konten{
+    width: 380px;
+    height: 380px;
+    float: left;
+    padding: 10px;
+    overflow: auto;
+}
+#kanan{
+    width: 190px;
+    height: 400px;
+    float: left;
+}
+#footer{
+    clear: both;
+    height: 100px;
+}
+#kiri ul {
+    margin: 0px;
+    padding: 0px;
+}
+#kiri ul li {
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+#kiri ul li a{
+    text-decoration: none;
+    color: orange;
+    background: green;
+    display: block;
+    padding: 5px;
+}
+#kiri ul li a:hover{
+    background: lightgreen;
+    color: blue;
+}
+
+

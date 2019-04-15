@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+#wrap {
+	width:600px;
+	margin:auto;
+	}
+#header {
+	background-color:blue;
+	width:100%;
+	height:150px;
+	}
+#badan {
+	width:600px;
+	float:left;
+	}
+#kiri {
+	float:left;
+	width:150px;
+	}
+#kanan {
+	width:450px;
+	float:right;
+	background-color:#CCCCCC;
+	height:100%;
+	}
+#rollover {
+	width:150px;
+	}
+#rollover ul {
+	margin:0;
+	padding:0;
+	}
+#rollover ul li {
+	list-style-type:none;
+	display: block;
+	padding:10px;
+	padding-left:30px;
+	background-color:green;
+	color:white;
+	background-image:url(../share_facebook.gif);
+	background-repeat:no-repeat;
+	background-position:5px;
+	}
+#rollover ul li:hover{
+	background-color:blue;
+	cursor:pointer;
+	}
+	
+#nested {
+	width: 150px;
+	}
+
+#nested ul {
+	margin:0px;
+	padding:0px;
+	}
+#nested ul li {
+	list-style-type:none;
+	padding:10px;
+	background-color:orange;
+	color:white;
+}	
+#nested ul li ul li{
+	background-color:yellow;
+	color:black;
+}
+#nested ul li ul li:hover{
+	background-color:grey;
+}
+
+#horizontal ul{
+	margin:0px;
+	padding:0px;
+	display:block;
+	float:left;
+	}
+	
+#horizontal ul li {
+	list-style-type:none;
+	display:inline;
+	padding:10px;
+	}
+
+#nextBack ul {
+	padding:0px;
+	margin:0px;
+	position:fixed;
+	width:100%;
+	top:0px;
+	left:0px;
+	z-index:0;
+	}
+			
+#nextBack ul li {
+	list-style-type:none;
+	padding:10px;
+	background-color:grey;
+	color:white;
+	}
+	
+#nextBack ul li.next {
+	float:left;
+	}
+
+#nextBack ul li.back {
+	float:right;
+	}
+		
+#nextBack ul li.next:hover , #nextBack ul li.back:hover {
+	background-color:aqua;
+	color:black;
+	}	
+
+#floating {
+	background-color:yellow;
+}
+#floating ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:yellow;
+	width:100%;
+	float:left;
+	}
+#floating ul li {
+	display:inline;
+	}
+#floating ul li a {
+	text-decoration:none;
+	background-color:brown;
+	color:white;
+	padding:10px;
+	}
+
+#dropMenu ul{
+	margin:0px;
+	padding:0px;
+	clear:both;
+}	
+
+#dropMenu ul li {
+	list-style-type:none;
+	float:left;
+	position:relative;
+	display:block;
+}
+
+#dropMenu ul li ul {
+	display:none;
+}
+
+#dropMenu ul li:hover ul{
+	display:block;
+	position:absolute;
+	float:none;
+}	
+#dropMenu ul li a{
+	text-decoration:none;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:aqua;
+	white-space:nowrap;
+}
+
+#dropMenu ul li ul {
+	text-decoration:none;
+	background-color:aqua;
+	white-space:nowrap;
+}
+
+	
+	
+	
+</style>
+</head>
+
+<body>
+<div id="wrap">
+	<div id="header">
+	
+	</div>
+
+	<div id="dropMenu">
+	<ul>
+	  <li><a href="#">Item 1</a>
+		<ul>
+		  <li><a href="#">Item_11</a></li>
+		  <li><a href="#">Item_12</a></li>
+		  <li><a href="#">Item_13</a></li>
+		  <li><a href="#">Item_14</a></li>
+		  <li><a href="#">Item_15</a></li>
+		</ul>
+	  </li>	  
+	  <li><a href="#">Item 2</a>
+		<ul>
+		  <li><a href="#">Item 11</a></li>
+		  <li><a href="#">Item 12</a></li>
+		  <li><a href="#">Item 13</a></li>
+		  <li><a href="#">Item 14</a></li>
+		  <li><a href="#">Item 15 ddd ddd</a></li>
+		</ul>	  	  
+	  </li>
+	  <li><a href="#">Item 3</a>
+		<ul>
+		  <li><a href="#">Item 31</a></li>
+		  <li><a href="#">Item 32</a></li>
+		  <li><a href="#">Item 33</a></li>
+		  <li><a href="#">Item 34</a></li>
+		  <li><a href="#">Item 35</a></li>
+		</ul></li>	  
+	  <li><a href="#">Item 4</a>
+		<ul>
+		  <li><a href="#">Item 41</a></li>
+		  <li><a href="#">Item 42</a></li>
+		  <li><a href="#">Item 43</a></li>
+		  <li><a href="#">Item 44</a></li>
+		  <li><a href="#">Item 45</a></li>
+		</ul></li>
+	  <li><a href="#">Item 5</a></li>
+	</ul>
+</div>
+<div id="badan">
+	<div id="kiri">
+		<div id="rollover">
+			<ul>
+			  <li>Item 1</li>
+			  <li>Item 2</li>
+			  <li>Item 3</li>
+			  <li>Item 4</li>
+			  <li>Item 5</li>
+			</ul>
+		</div>
+		
+		<div id="nested">
+			<ul>
+			  <li>Item 1
+				<ul>
+				  <li>Item 11</li>
+				  <li>Item 12</li>
+				  <li>Item 13</li>
+				  <li>Item 14</li>
+				  <li>Item 15</li>
+				</ul>
+			  </li>	  
+			  <li>Item 2
+				<ul>
+				  <li>Item 11</li>
+				  <li>Item 12</li>
+				  <li>Item 13</li>
+				  <li>Item 14</li>
+				  <li>Item 15</li>
+				</ul>	  	  
+			  </li>
+			  <li>Item 3
+				<ul>
+				  <li>Item 31</li>
+				  <li>Item 32</li>
+				  <li>Item 33</li>
+				  <li>Item 34</li>
+				  <li>Item 35</li>
+				</ul></li>	  
+			  <li>Item 4
+				<ul>
+				  <li>Item 41</li>
+				  <li>Item 42</li>
+				  <li>Item 43</li>
+				  <li>Item 44</li>
+				  <li>Item 45</li>
+				</ul></li>
+			  <li>Item 5</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="kanan">
+			<div id="floating">
+				<ul>
+				  <li><a href="#">Item 1</a></li>
+				  <li><a href="#">Item 2</a></li>
+				  <li><a href="#">Item 3</a></li>
+				  <li><a href="#">Item 4</a></li>
+				  <li><a href="#">Item 5</a></li>
+				</ul>			
+			</div>	
+			<div id="nextBack">
+				<ul>
+				  <li class="next">Next</li>
+				  <li class="back">Back</li>
+				</ul>
+			</div>
+			<div id="horizontal">
+				<ul>
+				  <li><a href="#">Item 1</a></li>
+				  <li><a href="#">Item 2</a></li>
+				  <li><a href="#">Item 3</a></li>
+				  <li><a href="#">Item 4</a></li>
+				  <li><a href="#">Item 5</a></li>
+				</ul>			
+			</div
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+	</div>
+</div>
+
+</div>
+</body>
+</html>
