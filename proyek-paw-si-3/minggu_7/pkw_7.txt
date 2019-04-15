@@ -1,0 +1,43 @@
+Topik : Analisis Tugas Proyek Akhir
+
+Tugas 7 :
+- Membuat SKPL Tugas Proyek Akhir
+
+
+--------------------------
+HTML --> struktur dokumen
+CSS --> mengatur tampilan
+Javascript --> web dinamis
+PHP --> logic program 
+--------------------------
+SDLC : System Development Life Cycle
+- Analisis : mencari tahu
+			- kebutuhan fungsional -> fungsi, kegunaan, fitur, produk
+			- kebutuhan non fungsional -> properti, pelengkap, pendukung, membutuhkan fitur lain dari tempat lain
+			- software : maintable, sercureability, reusable,
+			- hardware : komputer sever, cpu okta core 1,2 Ghz, 1 terabyte
+			komputer client : cpu core i5, harddisk 500Gb, web broser
+			- user : level user
+			observasi 
+			
+			SKPL 
+			 
+- Desain : membuat pola / model
+			* proses
+			- DAD, flowchart, UML (Use case, activity, diagram class, dll)
+			
+			* struktur database
+			- ERD, diagram relasi tabel, 
+			
+			* tampilan
+			- moke up, 
+			
+			DPPL
+			
+- Koding	Listing 
+- Testing	DUPL
+- Implementasi
+
+
+
+
