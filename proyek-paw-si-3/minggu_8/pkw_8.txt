@@ -1,0 +1,46 @@
+Perancangan / Desain
+--------------------
+membuat model
+::> proses --> DAD, Flowachart, Use Case, 
+::> antarmuka --> gambar tampilan, mokeup, 
+::> database --> ERD, skema diagram/ diagram relasi antar tabel
+
+DPPL (Deskripsi Pengembangan Perancangan Perangkat Lunak)
+
+
+Metodelogi Pengembangan Sistem
+- Analisis : kebutuhan sistem fungsional & non fungsional
+- Desain : perancangan : proses, antarmuka, database
+- Coding : penulisan program
+- Testing & Implementasi : uji dan penggunaan
+
+SDLC --> waterfall
+prototype
+incremental
+spiral
+agile
+extrem programming
+
+
+
+Tugas 8
+-------
+Membuat rancangan aplikasi (DPPL) tentang tugas proyek akhir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
