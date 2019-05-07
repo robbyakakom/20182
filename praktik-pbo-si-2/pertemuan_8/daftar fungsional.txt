@@ -1,0 +1,10 @@
+Kebutuhan Fungsional / Fungsi Produk / Fitur
+Sistem Informasi Akademik
+- User dapat melakukan login
+  * User : Akademik, Mahasiswa, Dosen
+- Akademik entry data Mahasiswa, 
+- Akademik entry data Dosen, 
+- Akademik entry data Matakuliah
+- Mahasiswa dapat melakukan KRS
+dll
+

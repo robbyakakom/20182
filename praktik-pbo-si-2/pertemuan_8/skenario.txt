@@ -1,0 +1,9 @@
+Case : melakukan login
+Aktor : User
+Skenario :
+1. User akses halaman login
+2. Sistem menampilkan halaman login
+3. User isi username dan password 
+4. User kirim (submit)
+5. Sistem cek user password
+6. Jika benar maka masuk sistem
