@@ -7,24 +7,44 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="target.html" method="post">
-        <label for="nim">NIM</label>
-        <input type="text" id="nim" name="nim">
+    <h2>Input Data Mahasiswa</h2>
+    <form action="target.php" method="post">
+        <label for="nim">NIM</label> <br/>
+        <input type="text" id="nim" name="nim" size="50" maxlength="10" placeholder="Isi dengan NIM" title="Isi dengan NIM">
         <br>
-        <label for="nama">Nama Mahasiswa</label>
-        <input type="text" id="nama" name="nama">
+        <label for="nama">Nama Mahasiswa</label> <br/>
+        <input type="text" id="nama" name="nama" size="50" placeholder="Isi dengan Nama Mahasiswa" title="Isi dengan Nama Mahasiswa" >
         <br>
-        <label for="prodi">Program Studi</label>
+        <label for="prodi">Program Studi</label> <br/>
         <select name="prodi" id="prodi">
+            <option value="">Pilih</option>
             <option value="Sistem Informasi">Sistem Informasi</option>
             <option value="Teknik Informatika">Teknik Informatika</option>
         </select>
         <br>
-        <input type="radio" name="jekel" id="L">
-        <label for="L">Laki-laki</label>     
-        <input type="radio" name="jekel" id="P">
-        <label for="P">Perempuan</label>        
+        <label for="foto">Foto</label>  <br/>
+        <input type="file" name="foto" id="foto">
+        <br/>
+        Jenis Kelamin
+        <fieldset>
+            <input type="radio" name="jekel" id="L" value="Laki-laki" >
+            <label for="L">Laki-laki</label>     
+            <input type="radio" name="jekel" id="P" value="Perempuan">
+            <label for="P">Perempuan</label>     
+        </fieldset>   
         <br>
+        <label for="alamat">Alamat</label>  <br/>
+        <textarea name="alamat" id="alamat" cols="60" rows="3"></textarea>
+        <br/>
+        <label for="hobby">Hobby</label> 
+        <fieldset>
+            <input type="checkbox" name="memasak" id="memasak" value="Memasak"> <label for="memasak">Memasak</label> <br/>
+            <input type="checkbox" name="membaca" id="membaca" value="Membaca"> <label for="membaca">Membaca</label><br/>
+            <input type="checkbox" name="main-bola" id="main-bola" value="Main Bola"> <label for="main-bola">Main Bola</label>
+        </fieldset>
+
+        <hr>
+        <button type="reset">BATAL</button>
         <button type="submit">SUBMIT</button>
     </form>
 </body>

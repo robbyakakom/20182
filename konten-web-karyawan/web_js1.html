@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // medefinisikan variabel
+        var nama, nim, nilai, ket ;
+        nama = prompt("Masukkan nama ") ;
+        nim = prompt("Masukkan NIM") ;
+        nilai = prompt("Masukkan Nilai") ;
+        if(nilai >= 60){
+            ket = "Lulus" ;
+        }else{
+            ket = "Tidak Lulus" ;
+        }
+
+        document.write("NIM " + nim + "<hr/>") ;
+        document.write("Nama " + nama + "<hr/>") ;
+        
+        alert("Keterangan " + ket) ;
+
+        var cek = confirm("Pilihan OK atau Cancel") ;
+        alert(cek) ;
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
